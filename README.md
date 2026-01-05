@@ -1,5 +1,5 @@
 # ADIA Lab Structural Break Detection
-[Banner](./banner.webp)
+![Banner](./banner.webp)
 
 Competition solution for the ADIA Lab Structural Break Challenge on CrunchDAO.
 
