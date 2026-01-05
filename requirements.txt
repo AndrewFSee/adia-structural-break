@@ -1,0 +1,30 @@
+﻿# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0,<3.0.0
+scipy>=1.7.0,<2.0.0
+
+# Machine Learning
+scikit-learn>=1.0.0,<2.0.0
+lightgbm>=3.3.0
+xgboost>=1.5.0
+catboost>=1.0.0
+
+# Deep Learning (CPU version)
+--index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+
+# Time Series Analysis
+ruptures>=1.1.0
+PyWavelets>=1.1.0
+
+# Optional Advanced Models
+tabpfn>=6.0.0
+
+# Data I/O
+pyarrow>=8.0.0
+
+# Utilities
+tqdm>=4.60.0
+joblib>=1.0.0
+
+

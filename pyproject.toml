@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adia-structural-break"
+version = "0.1.0"
+description = "Structural break detection for CrunchDAO ADIA challenge"
+authors = [
+    {name = "Andrew See", email = "andrew.see@colordo.edu"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.0.0",
+    "lightgbm>=3.3.0",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "ipython>=8.0.0",
+    "jupyter>=1.0.0",
+]
+
+[tool.setuptools]
+packages = ["sb"]
+package-dir = {"" = "src"}

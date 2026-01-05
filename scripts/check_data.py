@@ -1,0 +1,20 @@
+import pandas as pd
+
+print("Checking X_train.parquet structure:")
+X_train = pd.read_parquet('data/X_train.parquet')
+print(f"Columns: {X_train.columns.tolist()}")
+print(f"Index names: {X_train.index.names}")
+print(f"Shape: {X_train.shape}")
+print(f"\nFirst few rows:")
+print(X_train.head())
+print(f"\nData types:")
+print(X_train.dtypes)
+
+print("\n" + "="*70)
+print("Checking y_train.parquet structure:")
+y_train = pd.read_parquet('data/y_train.parquet')
+print(f"Columns: {y_train.columns.tolist() if hasattr(y_train, 'columns') else 'N/A (Series)'}")
+print(f"Index name: {y_train.index.name if hasattr(y_train, 'index') else 'N/A'}")
+print(f"Shape: {y_train.shape}")
+print(f"\nFirst few values:")
+print(y_train.head())
