@@ -4,6 +4,7 @@
 Competition solution for the ADIA Lab Structural Break Challenge on CrunchDAO.
 
 **Current Best Performance**: 0.8966 AUC (5-fold CV)
+
 **Currently in 11th place as of February 13, 2026 - https://hub.crunchdao.com/competitions/structural-break-open-benchmark/leaderboard**
 
 ## Overview
